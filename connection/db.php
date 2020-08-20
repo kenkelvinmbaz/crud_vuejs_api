@@ -1,7 +1,7 @@
 <?php
     
     // Variables de la conexion a la DB
-    $mysqli = new mysqli("localhost","root","123456","keneka_db");
+    $mysqli = new mysqli("localhost","root","put_your_password","put_your_database_name");
     
     // Comprobamos la conexion
     if($mysqli->connect_errno) {
